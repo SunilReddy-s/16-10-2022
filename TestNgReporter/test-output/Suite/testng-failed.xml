@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="firefoxTest(failed)">
+    <parameter name="browser" value="opera"/>
+    <classes>
+      <class name="CrossBrowser.VerifyTitle">
+        <methods>
+          <include name="verifypageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowser.VerifyTitle -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="CrossBrowser.VerifyTitle">
+        <methods>
+          <include name="verifypageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowser.VerifyTitle -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="ieTest(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="CrossBrowser.VerifyTitle">
+        <methods>
+          <include name="verifypageTitle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowser.VerifyTitle -->
+    </classes>
+  </test> <!-- ieTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
